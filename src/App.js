@@ -7,6 +7,7 @@ import AboutUs from './Pages/AboutUs/AboutUs';
 import Services from './Pages/Services/Services';
 import AllCountries from './Pages/AllCountries/AllCountries';
 import Login from './Pages/Login/Login';
+import SearchCountries from './Pages/SearchCountries/SearchCountries';
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
         <Route path="/services" element={<Services/>} />
         <Route path="/allCountries" element={<AllCountries/>} />
         <Route path='/login' element={<Login/>}/>
+        <Route path='/searchCountries' element={<SearchCountries/>}/>
+
       </Routes>
     </div>
   );
