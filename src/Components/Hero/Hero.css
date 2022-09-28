@@ -1,0 +1,5 @@
+.heroBg{
+    background: linear-gradient(90deg, rgba(0,0,0,0.38699229691876746) 100%, rgba(0,0,0,0.5214460784313726) 100%), url(https://www.nationsonline.org/gallery/Earth/Flag-Globe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
